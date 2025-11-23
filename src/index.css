@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-military-red: #8B0000;
+  --color-military-black: #0a0a0a;
+  --color-military-yellow: #D4AF37;
+
+  --font-stencil: "Black Ops One", cursive;
+  --font-sans: "Roboto", sans-serif;
+
+  --image-radial-gradient: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  }
+}
+
+/* Custom base styles need to be handled carefully in v4 if using @apply with custom theme vars immediately */
+body {
+  background-color: var(--color-military-black);
+  color: white;
+  font-family: var(--font-sans);
+}
