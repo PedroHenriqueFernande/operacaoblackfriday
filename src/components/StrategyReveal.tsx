@@ -1,5 +1,4 @@
 import React from 'react';
-import { Title, Body, Highlight } from './Typography';
 import laptopMockup from '../assets/laptop_mockup.png';
 import missionBg from '../assets/mission_bg.png';
 

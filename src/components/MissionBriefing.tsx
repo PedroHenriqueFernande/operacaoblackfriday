@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Subtitle, Body, Highlight } from './Typography';
+import { Subtitle, Body } from './Typography';
 import { Button } from './Button';
 import soldierMap from '../assets/soldier_map.png';
 import missionBg from '../assets/mission_bg.png';

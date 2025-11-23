@@ -1,5 +1,4 @@
 import React from 'react';
-import { Title, Subtitle, Body } from './Typography';
 
 export const ResultsSection: React.FC = () => {
     return (
